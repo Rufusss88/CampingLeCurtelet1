@@ -2275,4 +2275,9 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
     float: none;
     width: 100%;
   }
+
+  .hires{
+    width: 80px;
+    height: width: 80px;;
+  }
 }
