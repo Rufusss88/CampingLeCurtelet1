@@ -32,6 +32,10 @@ body {
   margin-right: 68px;
 }
 
+.hires{
+  width: 120px;
+  height: 33px;
+}
 .svg{
   width: 70px;
   height: 70px;
