@@ -1,1 +1,29 @@
 /* Your custom css code goes here */
+#separateur {
+    margin-top: 255px;
+}
+
+#separateur2 {
+    margin-top: 255px;
+}
+/*RESPONSIVE*/
+
+
+
+@media screen and (max-width: 768px) {
+    #logocamping{
+      display:none;
+    }
+
+    #separateur {
+        margin-top: 100px;
+    }
+
+    #separateur2 {
+        margin-top: 100px;
+    }
+
+    #notdisplay{
+        display: none;
+    }
+  }

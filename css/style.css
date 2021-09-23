@@ -41,6 +41,10 @@ body {
   height: 70px;
 }
 
+.maps{
+  width: 335px;
+}
+
 ::-moz-selection {
   background: #000000;
   color: #ffffff;
@@ -447,8 +451,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #903479));
   background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#903479));
   background: linear-gradient(to right, #ddf0f3 0%, #903479 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
-  opacity: .8;
+
 }
 
 .probootstrap-intro > .container-fluid, .probootstrap-intro > .container {
@@ -761,7 +764,6 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #903479));
   background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#903479));
   background: linear-gradient(to right, #ddf0f3 0%, #903479 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2, .probootstrap-section.probootstrap-section-dark .section-heading h2 {
@@ -2280,8 +2282,4 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
     width: 100%;
   }
 
-  .hires{
-    width: 80px;
-    height: width: 80px;;
-  }
 }

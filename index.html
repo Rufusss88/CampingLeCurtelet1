@@ -25,7 +25,7 @@
   <header role="banner" class="probootstrap-header">
     <!-- <div class="container"> -->
     <div class="row">
-        <a href="index.html" class="probootstrap-logo visible-xs"><img src="img/Logo.jpg" class="hires" width="120" height="33"></a>
+        <a href="index.html" class="probootstrap-logo visible-xs"><img src="img/Logo.jpg" class="hires" width="80"  alt="logo camping le curtelet"></a>
         
         <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
@@ -35,18 +35,17 @@
             <li class="active"><a href="index.html">Accueil</a></li>
             <li><a href="#emplacements">Nos Emplacements</a></li>
             <li><a href="https://bookingpremium.secureholiday.net/fr/9306/availabilities">Tarifs</a></li>
-            <li ><a href="index.html"><img src="img/Logo.jpg" class="hires" width="" height="110" alt="Free Bootstrap Template by uicookies.com"></a></li>
+            <li id="notdisplay"><a href="index.html"><img src="img/Logo.jpg" class="hires" id="logocamping" width="80" alt="Free Bootstrap Template by uicookies.com"></a></li>
             <li><a href="https://bookingpremium.secureholiday.net/fr/9306/">Reservations</a></li>
-            <li><a href="blog.html">Nos Services</a></li>
+            <li><a href="services.html">Nos Services</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <div class="extra-text visible-xs">
             <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
-            <h5>Connect With Us</h5>
+            <h5>Connectez vous</h5>
             <ul class="social-buttons">
-              <li><a href="#"><i class="icon-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-facebook2"></i></a></li>
-              <li><a href="#"><i class="icon-instagram2"></i></a></li>
+              <li><a href="https://www.facebook.com/Camping-Le-Curtelet-293695984060985"><i class="icon-facebook2"></i></a></li>
+              <li><a href="https://www.instagram.com/campinglecurtelet/"><i class="icon-instagram2"></i></a></li>
             </ul>
           </div>
         </nav>
@@ -57,11 +56,11 @@
 
   <section class="probootstrap-slider flexslider">
     <ul class="slides">
-       <li style="background-image: url(img/aiguebelette-4296287.jpg);" class="overlay">
+       <li style="background-image: url(img/aiguebelette-4296287.webp);" class="overlay">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
-                <div class="probootstrap-slider-text text-center">
+                <div class="probootstrap-slider-text text-center" id="separateur">
                   <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p>
                   <h1 class="probootstrap-heading probootstrap-animate">Bienvenue au Camping le Curtelet</h1>
                   <div class="probootstrap-animate probootstrap-sub-wrap">Camping familial en Savoie, les pieds dans l’eau, au bord du Lac d’Aiguebelette, dont les eaux atteignent 28° en été.</div>
@@ -70,11 +69,11 @@
             </div>
           </div>
         </li>
-        <li style="background-image: url(img/lac-aiguebelette-diapo3.jpg);" class="overlay">
+        <li style="background-image: url(img/lac-aiguebelette-diapo3.webp);" class="overlay">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
-                <div class="probootstrap-slider-text text-center">
+                <div class="probootstrap-slider-text text-center" id="separateur2">
                   <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p>
                   <h1 class="probootstrap-heading probootstrap-animate">Profitez d'une expérience unique</h1>
                   <div class="probootstrap-animate probootstrap-sub-wrap">Avec sa vue imprenable sur la montagne de l’Épine, il se situe à 400m d’altitude.</div>
@@ -185,8 +184,8 @@
         <div class="col-md-6">
           <div class="probootstrap-block-image-text">
             <figure>
-              <a href="img/mobilhome.png" class="image-popup">
-              <img src="img/mobilhome.png" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive">
+              <a href="img/mobilhome.webp" class="image-popup">
+              <img src="img/mobilhome.webp" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive">
               </a>
               <div class="actions">
                 <a href="https://vimeo.com/45830194" class="popup-vimeo"><i class="icon-play2"></i></a>
@@ -272,7 +271,7 @@
   </section>
 
   <section class="probootstrap-half">
-    <div class="image" style="background-image: url(img/aiguebelette-4296283_960_720.jpg);"></div>
+    <div class="image" style="background-image: url(img/aiguebelette-4296283_960_720.webp);"></div>
     <div class="text">
       <div class="probootstrap-animate fadeInUp probootstrap-animated">
         <h2 class="mt0">Le meilleur camping 3 étoiles de la région</h2>
@@ -304,7 +303,7 @@
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
             <h3>Accès</h3>
-            <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11178.077481632392!2d5.77050976780874!3d45.539876679101916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b06b04fc80061%3A0xc6bd6271cbc0a0f5!2sCamping+Le+Curtelet!5e0!3m2!1sfr!2sfr!4v1500994505563" width="350" height="450" frameborder="0" style="border:2px solid #903479" allowfullscreen=""></iframe>
+            <iframe loading="lazy" class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11178.077481632392!2d5.77050976780874!3d45.539876679101916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b06b04fc80061%3A0xc6bd6271cbc0a0f5!2sCamping+Le+Curtelet!5e0!3m2!1sfr!2sfr!4v1500994505563" width="350" height="450" frameborder="0" style="border:2px solid #903479" allowfullscreen=""></iframe>
           </div>
         </div>
         <div class="col-md-4">
