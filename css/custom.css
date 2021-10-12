@@ -6,6 +6,27 @@
 #separateur2 {
     margin-top: 255px;
 }
+
+.text{
+    font-weight: 500;
+}
+
+.contrast{
+    color: black;
+}
+#blanco{
+    color: white;
+}
+
+.whitecontrastsub{
+    color: rgba(255,255,255,.5);
+}
+
+.row2{
+    margin-top: 20px;
+}
+
+
 /*RESPONSIVE*/
 
 @media screen and (max-width: 768px) {
@@ -23,5 +44,10 @@
 
     #notdisplay{
         display: none;
+    }
+
+    #row3{
+        margin-right: 0px;
+        margin-left: 0x;
     }
   }
