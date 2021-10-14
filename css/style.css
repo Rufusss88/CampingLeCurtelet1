@@ -164,7 +164,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-nav {
-  margin-left: 0px;
+  margin-left: -60px;
   text-align: center;
   float: none;
 }
@@ -869,7 +869,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   .probootstrap-cta .probootstrap-cta-heading,
   .probootstrap-cta .probootstrap-cta-button-wrap {
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
 }
 

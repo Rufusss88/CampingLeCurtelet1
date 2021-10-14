@@ -26,6 +26,29 @@
     margin-top: 20px;
 }
 
+#darkblue{
+    background: #29235c;
+}
+
+.displaymobile{
+    display: none;
+}
+
+.img-responsive{
+    border-radius: 10px;
+}
+
+.mt0{
+    text-align: center;
+}
+
+.planpng{
+    margin-left: 225px;
+}
+
+.mobilhome{
+    margin-left: 300px;
+}
 
 /*RESPONSIVE*/
 
@@ -48,6 +71,45 @@
 
     #row3{
         margin-right: 0px;
-        margin-left: 0x;
+        margin-left: 5px;
     }
+
+    .hires{
+        width: auto;
+        height: auto;
+    }
+
+    .displaymobile{
+        display: flex;
+    }
+
+    .displaydesktop{
+        display: none;
+    }
+
+    .planpng{
+        margin-left:40px;
+        height: 120px;
+    }
+
+    .mobilhome{
+        margin-left:0px;
+    }
+
+    .mobilecenter{
+        text-align: center;
+    }
+
+    .btncenter{
+        margin-left: 60px;
+    }
+
+    .descenter{
+        text-align: center;
+    }
+
+    .post-meta{
+        text-align: center;
+    }
+
   }
