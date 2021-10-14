@@ -259,4 +259,8 @@
         width: 340px;
     }
 
+    .flex-control-nav{
+        display: none;
+    }
+
   }
