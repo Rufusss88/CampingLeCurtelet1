@@ -80,7 +80,7 @@
     }
 
     .displaymobile{
-        display: flex;
+        display: block;
     }
 
     .displaydesktop{
