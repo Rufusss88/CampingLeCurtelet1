@@ -50,6 +50,14 @@
     margin-left: 300px;
 }
 
+#emplacementdisplay{
+    display: none;
+}
+
+.tarif{
+    width: 80%;
+    margin-left: 110px;
+}
 /*button animation*/
 .wrapper {
     display: flex;
@@ -225,7 +233,7 @@
     }
 
     .planpng{
-        margin-left:40px;
+        margin-left:30px;
         height: 120px;
     }
 
@@ -261,6 +269,14 @@
 
     .flex-control-nav{
         display: none;
+    }
+
+    .tarif{
+        margin-left: 40px
+    }
+
+    #titreouverture{
+        margin-left: 7px
     }
 
   }

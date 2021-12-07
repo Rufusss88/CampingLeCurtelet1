@@ -259,8 +259,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-main-nav li a {
   text-transform: uppercase;
   padding: 0px 0;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 14px;
+  color: black;
+  font-size: 16px;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a {
@@ -777,6 +777,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-section.probootstrap-section-dark {
   background: whitesmoke;
   color: black;
+  
 }
 
 .probootstrap-section.probootstrap-section-dark .section-heading h2 {
@@ -850,6 +851,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   float: left;
   width: 80%;
   margin-bottom: 0;
+  margin-left: 45px
+
 }
 
 .probootstrap-cta .probootstrap-cta-heading span {
@@ -1521,12 +1524,12 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .service.left-icon h3 {
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
 .service.left-icon p {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .service.left-icon p:last-child {

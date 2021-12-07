@@ -24,8 +24,8 @@
 
   <header role="banner" class="probootstrap-header">
     <!-- <div class="container"> -->
-      <div class="row">
-        <a href="index.html" class="probootstrap-logo visible-xs"><img src="img/Logo.jpg" class="hires" width="80"  alt="Free Bootstrap Template by uicookies.com"></a>
+    <div class="row">
+        <a href="index.html" class="probootstrap-logo visible-xs"><img src="img/Logo.jpg" class="hires" width="80"  alt="logo camping le curtelet"></a>
         
         <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
@@ -33,13 +33,13 @@
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <li><a href="index.html">Accueil</a></li>
-            <li><a href="Emplacements.html">Plan du Camping</a></li>
-            <li><a href="https://bookingpremium.secureholiday.net/fr/9306/availabilities">Tarifs</a></li>
+            <li><a href="Emplacements.html">Plan du camping</a></li>
+            <li class="active"><a href="Tarifs.html">Tarifs</a></li>
             <li><a href="https://bookingpremium.secureholiday.net/fr/9306/availabilities">Reservations</a></li>
             <li id="notdisplay"><a href="index.html"><img src="img/Logo.jpg" width="" height="110" alt="logocamping"></a></li>
-            <li><a href="index.html#services">Nos Services</a></li>
+            <li><a href="services.html">Nos Services</a></li>
             <li><a href="LoisirsTourismes.html">Loisirs et Tourisme</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
           <div class="extra-text visible-xs">
             <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
@@ -54,24 +54,6 @@
     <!-- </div> -->
   </header>
   <!-- END: header -->
-
-  <section class="probootstrap-slider flexslider probootstrap-inner">
-    <ul class="slides">
-       <li style="background-image: url(img/plus-beaux-lacs-aiguebelette-e1591271183752.webp);" class="overlay">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                <div class="probootstrap-slider-text text-center">
-                  <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p>
-                  <h1 class="probootstrap-heading probootstrap-animate">Contact</h1>
-                  <div class="probootstrap-animate probootstrap-sub-wrap">Veuillez remplir le formulaire, nous tâcherons de vous répondre dès que possible</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-    </ul>
-  </section>
 
   <section class="probootstrap-cta probootstrap-light">
     <div class="container">
@@ -95,76 +77,90 @@
       </div>
     </div>
   </section>
-  
+
+  <section class="probootstrap-slider flexslider">
+    <ul class="slides">
+       <li style="background-image: url(img/Plage.webp);" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="probootstrap-slider-text text-center" id="separateur">
+                  <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p>
+                  <h1 class="probootstrap-heading probootstrap-animate">Bienvenue au Camping le Curtelet</h1>
+                  <div class="probootstrap-animate probootstrap-sub-wrap">Camping familial en Savoie, les pieds dans l’eau, au bord du Lac d’Aiguebelette, dont les eaux atteignent 28° en été.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(img/lac-aiguebelette-diapo3.webp);" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="probootstrap-slider-text text-center" id="separateur2">
+                  <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p>
+                  <h1 class="probootstrap-heading probootstrap-animate">Profitez d'une expérience unique</h1>
+                  <div class="probootstrap-animate probootstrap-sub-wrap">Avec sa vue imprenable sur la montagne de l’Épine, il se situe à 400m d’altitude.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </li>
+    </ul>
+  </section>
+
+   
+
   <section class="probootstrap-section">
     <div class="container">
-      <div class="row probootstrap-gutter60">
-        <div class="col-md-8">
-          <h2 class="mt0">Formulaire de contact</h2>
-          <form action="#" method="post" class="probootstrap-form">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="fname">Prénom</label>
-                  <input type="text" class="form-control" id="fname" name="fname">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="lname">Nom</label>
-                  <input type="text" class="form-control" id="lname" name="lname">
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="email">Téléphone</label>
-              <input type="email" class="form-control" id="phone" name="phone">
-            </div>
-            <div class="form-group">
-              <label for="phone">Email</label>
-              <input type="phone" class="form-control" id="email" name="email">
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
-            </div>
-            <div class="form-group">
-              <input type="submit" class="btn btn-primary btn-lg" id="submit" name="submit" value="Envoyer">
-            </div>
-          </form>
+      <div class="row mb30">
+        <div class="col-md-8 col-md-offset-2 probootstrap-section-heading text-center">
+          <h2 id="services">Tarifs saison 2022</h2>
+          <p><img src="img/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p>
         </div>
-        <div class="col-md-4">
-          <h2 class="mt0">Contactez-nous</h2>
-          <ul class="probootstrap-contact-info">
-            <li><i class="icon-location2"></i> <span>Camping Le Curtelet</span></li>
-            <li><i class="icon-mail"></i><span>73610 Lépin le Lac</span></li>
-            <li><i class="icon-phone2"></i><span>Tél.: 04.79.44.11.22</span></li>
-          </ul>
-        </div>
+      </div>
+      <div class="row">
+        <img class="tarif" src="img/0001.jpg" class="tarif" alt="Tarifs">
+          
       </div>
     </div>
   </section>
+  <section class="probootstrap-section probootstrap-section-dark">
+    <div class="container">
+      <div class="row mb30">
+        <div class="col-md-8 col-md-offset-2 probootstrap-section-heading text-center" id="emplacements">
+          <h2>Contenu</h2>
+          <p class="lead">Voici un exemple de contenu à implémenter dans la page d'accueil</p>
+          <p><img src="img/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
 
   <section class="probootstrap-half">
+    
     <div class="image" style="background-image: url(img/IMG_0132.jpg);"></div>
-    <div class="text descenter">
+    <div class="text">
       <div class="probootstrap-animate fadeInUp probootstrap-animated">
         <h2 class="descenter">Informations importantes</h2>
-        <p><img src="img/curve_white.svg" class="seperator" alt="Free HTML5 Bootstrap Template"></p>
+        <p class="mobilecenter"><img src="img/curve_white.svg" class="seperator" alt="Free HTML5 Bootstrap Template"></p>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 mobilecenter">
             <p class="whitecontrast" id="blanco">Ouverture de l'accueil<p>
             <div class="whitecontrastsub">
             </p>
-              Avril, Mai, Juin, Septembre
+              Avril, Mai, Juin, Septexmbre
                 <br>De 09h à 12H et de 14H à 18H<br>
                 <br>Juillet et Août
                 <br>De 09h à 12H et de 14H à 19H<br>
-                <br>Le portail est ouvert de 07H à 20H30
+                <br>Le portail est ouvert de 07H à 22H
               </p>    
             </div>
           </div>
-          <div class="col-md-6 whitecontrast">
+          <div class="col-md-6 whitecontrast mobilecenter">
             <p class="whitecontrast" id="blanco">Horaire arrivées et départs</p>
               <p>Emplacements
                 <br>Arrivée à partir de 14H
@@ -176,12 +172,14 @@
               </p>    
           </div>
         </div>
+        <p class="mobilecenter"><img src="img/curve_white.svg" class="seperator" alt="Free HTML5 Bootstrap Template"></p>
         <p class="mobilecenter"><a href="CGV résa EMPLACEMENT.pdf" class="link-with-icon white">Conditions générales de vente (emplacement)<i class=" icon-chevron-right"></i></a></p>
         <p class="mobilecenter"><a href="CGV loc M Home FRANCAIS ET ANGLAIS (1).pdf" class="link-with-icon white">Conditions générales de vente (mobil-home)<i class=" icon-chevron-right"></i></a></p>
         <p class="mobilecenter"><a href="REGLEMENT INTERIEUR.pdf" class="link-with-icon white">Réglement intérieur<i class=" icon-chevron-right"></i></a></p>
       </div>
     </div>
   </section>
+
   <!-- START: footer -->
   <footer role="contentinfo" class="probootstrap-footer">
     <div class="container">
@@ -222,9 +220,11 @@
     </div>
   </footer>
   <!-- END: footer -->
+
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+
 
   </body>
 </html>
